@@ -69,6 +69,14 @@ nav ul li{
     border-radius: 3em;
 }
 
+.desafio p {
+    font-size: 18px;
+}
+
+.descripcion p {
+    font-size: 18px;
+}
+
 
 /* Integrantes*/
 .integrantes{
@@ -111,10 +119,14 @@ aside {
 
 /*Footer*/
 footer {
+    text-align: center;
     background-color: var(--primary-color);
     height: 5em;
     width: 100%;
     position: absolute;
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
