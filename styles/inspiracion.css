@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --primary-color: #2C5C91;
+    --secondary-color: #C5E2FD;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary-color);
+    border: solid black 0.3em;
+}
+
+.logo-u{
+    width: 17em;
+    height: 5em;
+    margin: 0.7em;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 84.3vw;
+    font-size: 2.5em;
+}
+
+nav ul li{
+    margin: 0em 5em 0em 0em;
+}
+
+/*Actores*/
+
+.actores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3em;
+
+}
+
+div ul li {
+    list-style: none;
+}
+
+
+.contenedor {
+    background-color: var(--primary-color);
+    opacity: 80%;
+    text-align: center;
+    width: 40vw;
+    border-radius: 2em;
+    padding: 1em;
+
+}
+
+.afectados, .expertos{
+
+    margin: 0em 4em ;
+}
+
+
+/* Sitios */
+
+.sitios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.inmersion, .inspiracion {
+    margin: 0em 5em;
+}
+
+
+
+/*Footer*/
+footer {
+    background-color: var(--primary-color);
+    height: 5em;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
